@@ -1,0 +1,14 @@
+{
+  "name": "lingolab",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/libcurl-transport": "^1.5.0",
+    "@mercuryworkshop/scramjet": "latest",
+    "@mercuryworkshop/wisp-js": "^0.3.3",
+    "express": "^4.21.0"
+  }
+}
