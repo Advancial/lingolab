@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Log in | Lingo Lab</title><link rel="stylesheet" href="/style.css"></head><body>
+<nav><a class="logo" href="/">lingo lab</a></nav>
+<form class="box" method="POST" action="/api/login">
+<h2>Log in</h2>
+<p class="err" id="e">Incorrect username or password.</p>
+<input name="username" placeholder="Username" autocomplete="username" required>
+<input name="password" type="password" placeholder="Password" autocomplete="current-password" required>
+<button class="btn" style="width:100%">Log in</button></form>
+<script>if(location.search.includes("e=1"))document.getElementById("e").style.display="block"</script>
+</body></html>
